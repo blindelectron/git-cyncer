@@ -5,7 +5,7 @@
 export repodir=$1
 export time=$2
 if which git > /dev/null 2>/dev/null;then
-sleep(.01)
+sleep .01
 else
 echo "plese install git befor using this utility"
 exit 1
