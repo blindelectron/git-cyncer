@@ -21,3 +21,4 @@ while true;do
 sleep$((60*$time))
 cd repodir
 git pull
+done
