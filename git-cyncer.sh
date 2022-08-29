@@ -18,7 +18,7 @@ echo "no time was provided, setting time to 5 minutes"
 export time=5
 fi
 while true;do
-sleep$((60*$time))
-cd repodir
+sleep $((60*$time))
+cd $repodir
 git pull
 done
