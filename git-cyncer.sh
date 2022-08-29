@@ -1,5 +1,5 @@
 #!/bin/bash
-#a small script for keeping a folder in sync with a git repo.
+#a script for keeping a folder in sync with a git repo.
 #author, blindelectron
 #this software is licensed under the GNU general PUBLIC LICENSE3.0, see license for more details
 export repodir=$1
