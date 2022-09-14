@@ -7,14 +7,14 @@ export time=$2
 if which git > /dev/null 2>/dev/null;then
 sleep .01
 else
-echo "plese install git befor using this utility"
+echo "Please install git before using this utility."
 exit 1
 fi
 if [ -z $repodir ];then
-echo "please provide a path to the repo folder on your machine."
+echo "Please provide a path to the repo's folder on your machine."
 exit 1;fi
 if [ -z $time ];then
-echo "no time was provided, setting time to 5 minutes"
+echo "No time was provided; setting time to 5 minutes."
 export time=5
 fi
 while true;do
