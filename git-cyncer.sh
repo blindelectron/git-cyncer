@@ -17,8 +17,8 @@ if [ -z $time ];then
 echo "No time was provided; setting time to 5 minutes."
 export time=5
 fi
+cd $repodir
 while true;do
 sleep $((60*$time))
-cd $repodir
 git pull
 done
